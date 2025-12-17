@@ -6,5 +6,5 @@ let body = document.querySelector("body");
 
 button.addEventListener("click", () => {
    
-	div.innerHTML="<h1 id='status'>Enter Metaverse</h1> "
+	div.innerHTML="<h1 id='status'>Entered Metaverse</h1> "
 });

@@ -8,5 +8,5 @@ button.addEventListener("click",()=>{
 	h1.innerText="Entered Metaverse";
 	h1.setAttribute("id","status")
 	body.prepend(h1);
-	p.remove();
+	
 });

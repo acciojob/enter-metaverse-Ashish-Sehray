@@ -9,3 +9,7 @@ button.addEventListener("click", () => {
 	body.innerHTML="<h1 id='status'>Entered Metaverse</h1> <br> <button id='enterBtn'>Enter</button>"
 });
 
+cy.visit(baseUrl);
+
+// Check if the #status element exists and is visible
+cy.get('#status').should('exist').and('be.visible'); 
